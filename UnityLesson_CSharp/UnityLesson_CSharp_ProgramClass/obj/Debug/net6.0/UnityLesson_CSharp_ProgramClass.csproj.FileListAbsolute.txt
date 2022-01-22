@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\bin\Debug\net6.0\UnityLesson_CSharp_ProgramClass.exe
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\bin\Debug\net6.0\UnityLesson_CSharp_ProgramClass.deps.json
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\bin\Debug\net6.0\UnityLesson_CSharp_ProgramClass.runtimeconfig.json
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\bin\Debug\net6.0\UnityLesson_CSharp_ProgramClass.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\bin\Debug\net6.0\ref\UnityLesson_CSharp_ProgramClass.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\bin\Debug\net6.0\UnityLesson_CSharp_ProgramClass.pdb
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.AssemblyInfo.cs
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\ref\UnityLesson_CSharp_ProgramClass.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.pdb
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_ProgramClass\obj\Debug\net6.0\UnityLesson_CSharp_ProgramClass.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\bin\Debug\net5.0\UnityLesson_CSharp_If.exe
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\bin\Debug\net5.0\UnityLesson_CSharp_If.deps.json
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\bin\Debug\net5.0\UnityLesson_CSharp_If.runtimeconfig.json
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\bin\Debug\net5.0\UnityLesson_CSharp_If.runtimeconfig.dev.json
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\bin\Debug\net5.0\UnityLesson_CSharp_If.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\bin\Debug\net5.0\ref\UnityLesson_CSharp_If.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\bin\Debug\net5.0\UnityLesson_CSharp_If.pdb
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.AssemblyInfo.cs
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\ref\UnityLesson_CSharp_If.dll
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.pdb
+C:\Users\User\source\repos\UnityLesson_CSharp\UnityLesson_CSharp_If\obj\Debug\net5.0\UnityLesson_CSharp_If.genruntimeconfig.cache
