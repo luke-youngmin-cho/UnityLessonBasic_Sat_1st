@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj",
         "projectName": "UnityLesson_CSharp_ProgramClass",
-        "projectPath": "C:\\Users\\User\\source\\repos\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\UnityLesson_CSharp_ProgramClass.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\UnityLesson_CSharp_ProgramClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

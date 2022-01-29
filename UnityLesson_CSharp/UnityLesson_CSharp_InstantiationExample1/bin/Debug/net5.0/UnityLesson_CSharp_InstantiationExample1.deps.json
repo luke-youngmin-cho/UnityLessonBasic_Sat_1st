@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UnityLesson_CSharp_InstantiationExample1/1.0.0": {
+        "runtime": {
+          "UnityLesson_CSharp_InstantiationExample1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnityLesson_CSharp_InstantiationExample1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

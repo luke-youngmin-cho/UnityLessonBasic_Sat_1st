@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\bin\Debug\net5.0\UnityLesson_CSharp_Operator.exe
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\bin\Debug\net5.0\UnityLesson_CSharp_Operator.deps.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\bin\Debug\net5.0\UnityLesson_CSharp_Operator.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\bin\Debug\net5.0\UnityLesson_CSharp_Operator.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\bin\Debug\net5.0\UnityLesson_CSharp_Operator.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\bin\Debug\net5.0\ref\UnityLesson_CSharp_Operator.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\bin\Debug\net5.0\UnityLesson_CSharp_Operator.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\UnityLesson_CSharp_Operator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\UnityLesson_CSharp_Operator.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\UnityLesson_CSharp_Operator.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\UnityLesson_CSharp_Operator.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\UnityLesson_CSharp_Operator.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\ref\UnityLesson_CSharp_Operator.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\UnityLesson_CSharp_Operator.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Operator\obj\Debug\net5.0\UnityLesson_CSharp_Operator.genruntimeconfig.cache
