@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\bin\Debug\net5.0\UnityLesson_CSharp_Collection.exe
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\bin\Debug\net5.0\UnityLesson_CSharp_Collection.deps.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\bin\Debug\net5.0\UnityLesson_CSharp_Collection.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\bin\Debug\net5.0\UnityLesson_CSharp_Collection.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\bin\Debug\net5.0\UnityLesson_CSharp_Collection.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\bin\Debug\net5.0\ref\UnityLesson_CSharp_Collection.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\bin\Debug\net5.0\UnityLesson_CSharp_Collection.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\ref\UnityLesson_CSharp_Collection.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_Collection\obj\Debug\net5.0\UnityLesson_CSharp_Collection.genruntimeconfig.cache

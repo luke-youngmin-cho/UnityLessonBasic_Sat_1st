@@ -70,7 +70,32 @@
       "ProjectGuid": "2320cf3d-5d2b-4631-bb84-2bc91ed56e28",
       "DisplayName": "UnityLesson_CSharp_Operators",
       "ColorIndex": 12
+    },
+    "6b4aff47-3557-4825-9eeb-dc1c32ef837a": {
+      "ProjectGuid": "6b4aff47-3557-4825-9eeb-dc1c32ef837a",
+      "DisplayName": "UnityLesson_CSharp_Array",
+      "ColorIndex": 13
+    },
+    "1b080f38-e15c-40c8-9288-0d4f12afbe33": {
+      "ProjectGuid": "1b080f38-e15c-40c8-9288-0d4f12afbe33",
+      "DisplayName": "UnityLesson_CSharp_WhileLoop",
+      "ColorIndex": 14
+    },
+    "9fdbc6de-ca25-4056-9db3-384ad63ea590": {
+      "ProjectGuid": "9fdbc6de-ca25-4056-9db3-384ad63ea590",
+      "DisplayName": "UnityLesson_CSharp_ForLoop",
+      "ColorIndex": 15
+    },
+    "1a205b78-672f-4901-856a-573847edb831": {
+      "ProjectGuid": "1a205b78-672f-4901-856a-573847edb831",
+      "DisplayName": "UnityLesson_CSharp_ForLoopExample",
+      "ColorIndex": 0
+    },
+    "08b603f9-7ab7-4e37-a176-63265194a22d": {
+      "ProjectGuid": "08b603f9-7ab7-4e37-a176-63265194a22d",
+      "DisplayName": "UnityLesson_CSharp_Collection",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 2
 }

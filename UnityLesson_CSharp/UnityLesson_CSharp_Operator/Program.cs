@@ -15,23 +15,28 @@ namespace UnityLesson_CSharp_Operator
             // 더하기
             c = OperatorMethods.Sum(a, b);
             // 빼기
-            c = a - b;
+            c = OperatorMethods.Sub(a, b);
             // 나누기
-            c = a / b;
+            c = OperatorMethods.Div(a, b);
+            float af = 14.0f;
+            float bf = 6.0f;
+            float cf = 0f;
+            cf = OperatorMethods.Div(af, bf);
             // 곱하기
-            c = a * b;
+            c = OperatorMethods.Mul(a, b);
             // 나머지
-            c = a % b;
+            c = OperatorMethods.Mod(a, b);
             Console.WriteLine(c);
 
             // 증감 연산
             // 증가 연산자, 감소 연산자
             //===============================================================
             // 증가 연산자
-            c++; // c = c + 1;
+            c = OperatorMethods.Increase(c); // c = c + 1;
+            Console.WriteLine(c);
             // 감소 연산자
-            c--; // c = c - 1;
-
+            c = OperatorMethods.Decrease(c); // c = c - 1;
+            Console.WriteLine(c);
             // 관계 연산
             // 수학에서 등호와 부등호
             // 같음, 다름, 크기 비교 연산 수행
