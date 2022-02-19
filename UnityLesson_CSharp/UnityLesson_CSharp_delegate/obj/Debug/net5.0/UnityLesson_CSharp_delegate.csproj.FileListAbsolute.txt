@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\bin\Debug\net5.0\UnityLesson_CSharp_delegate.exe
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\bin\Debug\net5.0\UnityLesson_CSharp_delegate.deps.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\bin\Debug\net5.0\UnityLesson_CSharp_delegate.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\bin\Debug\net5.0\UnityLesson_CSharp_delegate.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\bin\Debug\net5.0\UnityLesson_CSharp_delegate.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\bin\Debug\net5.0\ref\UnityLesson_CSharp_delegate.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\bin\Debug\net5.0\UnityLesson_CSharp_delegate.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\ref\UnityLesson_CSharp_delegate.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_delegate\obj\Debug\net5.0\UnityLesson_CSharp_delegate.csproj.AssemblyReference.cache

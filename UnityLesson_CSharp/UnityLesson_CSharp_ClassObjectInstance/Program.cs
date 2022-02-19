@@ -16,6 +16,9 @@ namespace UnityLesson_CSharp_ClassObjectInstance
             // 이렇게하면 aa 변수를 통해서 생성된 객체에 접근할 수가 있게 된다.
             // 여기서 새로 생성된 객체가 할당된 aa 변수를 인스턴스 라고 함
             AA aa = new AA();
+            aa.age = 1;
+            AA aa2 = new AA(2);
+
         }
     }
     // AA 클래스
@@ -25,7 +28,27 @@ namespace UnityLesson_CSharp_ClassObjectInstance
     // protected : 상속받은 클래스에서만 접근할 수가 있다.
     // internal  : 같은 어셈블리 ( 같은 프로젝트 ) 에서만 접근할 수가 있다.
     // 기본적으로 접근제한자를 명시하지 않으면 private 이 디폴트.
-    public class AA
+    class AA
     {
+        public int age;
+        public AA()
+        {
+
+        }
+        public AA(int a)
+        {
+            age = a;
+        }
+        ~AA()
+        {
+
+        }
+    }
+    class Warrior
+    {
+        Warrior()
+        {
+
+        }
     }
 }

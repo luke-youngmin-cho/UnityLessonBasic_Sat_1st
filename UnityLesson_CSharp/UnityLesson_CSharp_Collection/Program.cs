@@ -34,7 +34,7 @@ namespace UnityLesson_CSharp_Collection
             List<Orc> list_Orc = new List<Orc>();
             foreach (Orc item in list_Orc)
             {
-
+                list_Orc.Add(item);
             }
             //------------------------------------------
             // Dictionary

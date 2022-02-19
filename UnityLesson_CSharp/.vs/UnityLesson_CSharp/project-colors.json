@@ -95,7 +95,17 @@
       "ProjectGuid": "08b603f9-7ab7-4e37-a176-63265194a22d",
       "DisplayName": "UnityLesson_CSharp_Collection",
       "ColorIndex": 1
+    },
+    "163119e1-e54e-4a00-9637-fefd3b6420dc": {
+      "ProjectGuid": "163119e1-e54e-4a00-9637-fefd3b6420dc",
+      "DisplayName": "UnityLesson_CSharp_EnumAndSwitchCase",
+      "ColorIndex": 2
+    },
+    "e7e429fc-957d-4f27-84a1-02fad5320d58": {
+      "ProjectGuid": "e7e429fc-957d-4f27-84a1-02fad5320d58",
+      "DisplayName": "UnityLesson_CSharp_Structure",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

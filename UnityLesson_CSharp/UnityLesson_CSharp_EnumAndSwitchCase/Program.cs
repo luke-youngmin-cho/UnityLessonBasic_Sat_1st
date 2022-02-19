@@ -87,7 +87,6 @@ namespace UnityLesson_CSharp_EnumAndSwitchCase
             }*/
 
             // Switch-case 분기
-            
 
             // 전사에게 동작 명령하기
             Console.Write("전사에게 명령을 내려 주세요");
