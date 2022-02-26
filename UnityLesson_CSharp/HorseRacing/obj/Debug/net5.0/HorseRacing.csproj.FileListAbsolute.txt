@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\bin\Debug\net5.0\HorseRacing.exe
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\bin\Debug\net5.0\HorseRacing.deps.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\bin\Debug\net5.0\HorseRacing.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\bin\Debug\net5.0\HorseRacing.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\bin\Debug\net5.0\HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\bin\Debug\net5.0\ref\HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\bin\Debug\net5.0\HorseRacing.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\ref\HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\HorseRacing\obj\Debug\net5.0\HorseRacing.genruntimeconfig.cache

@@ -105,7 +105,32 @@
       "ProjectGuid": "e7e429fc-957d-4f27-84a1-02fad5320d58",
       "DisplayName": "UnityLesson_CSharp_Structure",
       "ColorIndex": 3
+    },
+    "65b07ed0-527d-4041-b874-d8a86b13bb34": {
+      "ProjectGuid": "65b07ed0-527d-4041-b874-d8a86b13bb34",
+      "DisplayName": "UnityLesson_CSharp_ClassInheritance",
+      "ColorIndex": 4
+    },
+    "7f263d90-571b-40e3-b363-8489fb9fa91e": {
+      "ProjectGuid": "7f263d90-571b-40e3-b363-8489fb9fa91e",
+      "DisplayName": "UnityLesson_CSharp_LiscovExample",
+      "ColorIndex": 5
+    },
+    "282c4db4-8f41-4724-85f4-e524aa781b7b": {
+      "ProjectGuid": "282c4db4-8f41-4724-85f4-e524aa781b7b",
+      "DisplayName": "UnityLesson_CSharp_delegate",
+      "ColorIndex": 6
+    },
+    "2aa094cd-8c7d-4ac6-a850-69d427710a80": {
+      "ProjectGuid": "2aa094cd-8c7d-4ac6-a850-69d427710a80",
+      "DisplayName": "HorseRacing",
+      "ColorIndex": 7
+    },
+    "53166eae-3f9e-4f82-94be-053eb6fe2226": {
+      "ProjectGuid": "53166eae-3f9e-4f82-94be-053eb6fe2226",
+      "DisplayName": "DiceGame",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 9
 }
