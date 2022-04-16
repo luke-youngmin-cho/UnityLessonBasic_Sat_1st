@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
     }
 
     public PlayerState state;
+    public IdleState idleState;
+    public RunState runState;
     public JumpState jumpState;
     public FallState fallState;
 
@@ -67,7 +69,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // 점프 키
-        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        if (Input.GetKey(KeyCode.LeftAlt))
         {
             if (groundDetector.isDetected &&
                state != PlayerState.Jump &&
@@ -93,8 +95,10 @@ public class PlayerController : MonoBehaviour
         switch (state)
         {
             case PlayerState.Idle:
+                idleState = IdleState.Idle;
                 break;
             case PlayerState.Run:
+                runState = RunState.Idle;
                 break;
             case PlayerState.Jump:
                 jumpState = JumpState.Idle;
@@ -113,8 +117,10 @@ public class PlayerController : MonoBehaviour
         switch (state)
         {
             case PlayerState.Idle:
+                idleState = IdleState.Prepare;
                 break;
             case PlayerState.Run:
+                runState = RunState.Prepare;
                 break;
             case PlayerState.Jump:
                 jumpState = JumpState.Prepare;
@@ -132,16 +138,61 @@ public class PlayerController : MonoBehaviour
         switch (state)
         {
             case PlayerState.Idle:
-                //UpdateIdleState();
+                UpdateIdleState();
                 break;
             case PlayerState.Run:
-                //UpdateRunState();
+                UpdateRunState();
                 break;
             case PlayerState.Jump:
                 UpdateJumpState();
                 break;
             case PlayerState.Fall:
                 UpdateFallState();
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void UpdateIdleState()
+    {
+        switch (idleState)
+        {
+            case IdleState.Idle:
+                break;
+            case IdleState.Prepare:
+                animator.Play("Idle");
+                idleState++;
+                break;
+            case IdleState.Casting:
+                idleState++;
+                break;
+            case IdleState.OnAction:
+                // 아무것도 안할거임.
+                break;
+            case IdleState.Finish:
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void UpdateRunState()
+    {
+        switch (runState)
+        {
+            case RunState.Idle:
+                break;
+            case RunState.Prepare:
+                animator.Play("Run");
+                runState++;
+                break;
+            case RunState.Casting:
+                runState++;
+                break;
+            case RunState.OnAction:
+                break;
+            case RunState.Finish:
                 break;
             default:
                 break;
@@ -216,6 +267,23 @@ public enum PlayerState
     Fall
 }
 
+public enum IdleState
+{
+    Idle,
+    Prepare,
+    Casting,
+    OnAction,
+    Finish,
+}
+public enum RunState
+{
+    Idle,
+    Prepare,
+    Casting,
+    OnAction,
+    Finish,
+}
+
 public enum JumpState
 {
     Idle,
@@ -226,6 +294,15 @@ public enum JumpState
 }
 
 public enum FallState
+{
+    Idle,
+    Prepare,
+    Casting,
+    OnAction,
+    Finish,
+}
+
+public enum Attack
 {
     Idle,
     Prepare,
