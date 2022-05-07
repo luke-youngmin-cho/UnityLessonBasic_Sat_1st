@@ -16,7 +16,15 @@ using UnityEngine;
 
 [System.Serializable] // 해당 클래스 타입의 오브젝트가 Serialze 가능하도록 해주는 속성
 public struct NoteData 
-{
+{   
     public float time; // 뮤직비디오의 시간
     public KeyCode keyCode; // 키보드 입력
+    public float speed;
+}
+
+public enum NoteType
+{
+    None,
+    Down,
+    Press
 }

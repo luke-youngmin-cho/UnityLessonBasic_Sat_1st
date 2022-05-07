@@ -15,6 +15,13 @@ public class SongSelector : MonoBehaviour
         }
     }
 
+    public bool isPlayable
+    {
+        get
+        {
+            return (clip != null) && (songData != null) ? true : false;
+        }
+    }
     public VideoClip clip;
     public SongData songData;
 
