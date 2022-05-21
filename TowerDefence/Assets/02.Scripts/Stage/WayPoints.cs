@@ -16,6 +16,14 @@ public class WayPoints : MonoBehaviour
     }
 
     /// <summary>
+    /// 마지막 포인트
+    /// </summary>
+    public Transform GetLastWayPoint()
+    {
+        return points[points.Length - 1];
+    }
+
+    /// <summary>
     /// 다음 포인트 가져오는함수
     /// </summary>
     /// <param name="currentPointIndex"> 현재 포인트 인덱스 </param>
