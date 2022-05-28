@@ -14,7 +14,7 @@ public class TowerHandler : MonoBehaviour
             return selectedTowerInfo != null ? true : false;
         }
     }
-    private TowerInfo selectedTowerInfo;
+    public TowerInfo selectedTowerInfo;
 
     public void SetUp(TowerInfo towerInfo)
     {

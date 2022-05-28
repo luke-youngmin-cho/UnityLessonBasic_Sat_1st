@@ -8,6 +8,15 @@ public class TowerSelectButton : MonoBehaviour
 
     public void OnClick()
     {
-        TowerHandler.instance.SetUp(towerInfo);
+        if (towerInfo.buildPrice <= LevelManager.instance.money)
+        {
+            TowerHandler.instance.SetUp(towerInfo);
+        }
+        else
+        {
+            // todo -> µ· ºÎÁ· ÇÏ´Ù´Â ÆË¾÷Ã¢ ¶ç¿ì±â
+        }
+           
     }
+
 }

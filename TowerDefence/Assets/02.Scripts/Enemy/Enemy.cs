@@ -15,7 +15,8 @@ public class Enemy : MonoBehaviour
             _hp = value;
             hpBar.value = _hp / hpMax;
 
-            Destroy(gameObject);
+            if (_hp <= 0)
+                Destroy(gameObject);
         }
 
         get

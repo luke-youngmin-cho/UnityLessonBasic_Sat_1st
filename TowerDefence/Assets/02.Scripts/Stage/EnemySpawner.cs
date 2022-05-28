@@ -78,9 +78,11 @@ public class EnemySpawner : MonoBehaviour
                     // 소환 딜레이 체크
                     if (timers[tmpStage][i] < 0)
                     {
-                        Instantiate(spawnElements[tmpStage][i].prefab,
+                        Debug.Log($"Spawn {spawnElements[tmpStage][i].prefab.name}");
+                        GameObject go = Instantiate(spawnElements[tmpStage][i].prefab,
                                     WayPoints.instance.GetFirstWayPoint().position,
                                     Quaternion.identity);
+                        Debug.Log(go);
                         counts[tmpStage][i]--;
                         timers[tmpStage][i] = spawnElements[tmpStage][i].delay;
                     }

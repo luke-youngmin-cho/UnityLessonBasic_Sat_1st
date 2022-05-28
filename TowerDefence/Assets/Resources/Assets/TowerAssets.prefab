@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5238559781691362593
+--- !u!1 &5966423624563670714
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7700630487703562163}
-  - component: {fileID: 3363251996016975534}
+  - component: {fileID: 5346966441860809633}
+  - component: {fileID: 8394969958036337910}
   m_Layer: 0
-  m_Name: PreviewTowerAssets
+  m_Name: TowerAssets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7700630487703562163
+--- !u!4 &5346966441860809633
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5238559781691362593}
+  m_GameObject: {fileID: 5966423624563670714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,18 +31,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3363251996016975534
+--- !u!114 &8394969958036337910
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5238559781691362593}
+  m_GameObject: {fileID: 5966423624563670714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c5491b03d970d44abb786d6fa693e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 421dedc48e0fb2f4abde613b60145682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previewTowers:
-  - {fileID: 3003032255728555236, guid: d39c13b166bb7644c84de5a7d293cba1, type: 3}
-  - {fileID: 3003032255728555236, guid: f351aaf6a55b91c4fafaf8e063db1687, type: 3}
+  towerPrefabs:
+  - {fileID: 3003032255728555236, guid: 7b2ff05acbc2b964499979cbe0066fe3, type: 3}
+  - {fileID: 3003032255728555236, guid: 67d7c91a371a0024494fac65661b47be, type: 3}
+  - {fileID: 3003032255728555236, guid: f1e79dfe271c44042908fbe5df565043, type: 3}
+  - {fileID: 3003032255728555236, guid: f646676e41b15be4189dec72fb62d32f, type: 3}
+  - {fileID: 3003032255728555236, guid: a177295665b7af845bb63069bd055a89, type: 3}
+  - {fileID: 3003032255728555236, guid: 3fc78c3babc48e14da4f7a76c49c1b55, type: 3}

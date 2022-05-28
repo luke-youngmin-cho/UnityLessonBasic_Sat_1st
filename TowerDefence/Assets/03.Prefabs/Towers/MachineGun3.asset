@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49ba9c69c0f6db3499e4e4d430f53a58, type: 3}
-  m_Name: MachineGun1
+  m_Name: MachineGun3
   m_EditorClassIdentifier: 
   type: 0
-  upgradeLevel: 1
-  buildPrice: 80
-  sellPrice: 60
-  icon: {fileID: 21300000, guid: d9940e5aa89469146aebd949a27ff52c, type: 3}
+  upgradeLevel: 3
+  buildPrice: 200
+  sellPrice: 250
+  icon: {fileID: 21300000, guid: b685181f9ccfe8d4b8cf9d16535b32f2, type: 3}
