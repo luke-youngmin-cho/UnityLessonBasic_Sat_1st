@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LevelInfo0
   m_EditorClassIdentifier: 
   level: 0
-  initMoney: 300
+  initMoney: 3000
   stageInfos:
   - stage: 1
     enemiesElements:

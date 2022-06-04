@@ -465,6 +465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpMax: 10
   hpBar: {fileID: 4254517351215389393}
+  dieEffect: {fileID: 8188374961951787288, guid: 7db7bf8a5a8265c4ea2c5f7af6248176, type: 3}
 --- !u!1 &7136932467150076024
 GameObject:
   m_ObjectHideFlags: 0

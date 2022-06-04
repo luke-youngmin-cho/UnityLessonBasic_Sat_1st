@@ -424,8 +424,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55ff2933bc109064e806e9afd4eb1ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hpMax: 8
+  hpMax: 20
   hpBar: {fileID: 8478325583650472123}
+  dieEffect: {fileID: 8188374961951787288, guid: 7db7bf8a5a8265c4ea2c5f7af6248176, type: 3}
 --- !u!1 &7335110055138328805
 GameObject:
   m_ObjectHideFlags: 0

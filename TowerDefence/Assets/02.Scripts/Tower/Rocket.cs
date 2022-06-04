@@ -12,10 +12,12 @@ public class Rocket : MonoBehaviour
     private Vector3 moveVec;
     private Transform tr;
 
-    public void SetUp(Vector3 dir, float damage)
+    public void SetUp(Transform target, float damage)
     {
+        Vector3 dir = (target.transform.position - transform.position).normalized;
         moveVec = dir * speed;
         _damage = damage;
+        transform.LookAt(target);
     }
 
     private void Awake()
@@ -32,7 +34,7 @@ public class Rocket : MonoBehaviour
 
     private void FixedUpdate()
     {
-        tr.Translate(moveVec * Time.fixedDeltaTime);
+        tr.Translate(moveVec * Time.fixedDeltaTime, Space.World);
     }
 
     private void Explode()

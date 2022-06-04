@@ -16,7 +16,11 @@ public class Enemy : MonoBehaviour
             hpBar.value = _hp / hpMax;
 
             if (_hp <= 0)
+            {
+                GameObject go = Instantiate(dieEffect.gameObject, transform.position, Quaternion.identity);
+                Destroy(go, dieEffect.main.duration + dieEffect.main.startLifetime.constantMax);
                 Destroy(gameObject);
+            }   
         }
 
         get
@@ -26,9 +30,11 @@ public class Enemy : MonoBehaviour
     }
     public float hpMax;
     [SerializeField] private Slider hpBar;
+    [SerializeField] private ParticleSystem dieEffect;
 
     private void Awake()
     {
         hp = hpMax;
     }
+
 }

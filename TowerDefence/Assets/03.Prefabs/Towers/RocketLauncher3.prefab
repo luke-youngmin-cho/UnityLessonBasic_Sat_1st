@@ -110,9 +110,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 32768
   detectRange: 3
-  rotatePoint: {fileID: 0}
+  rotatePoint: {fileID: 6578106189693346076}
   target: {fileID: 0}
-  rocketPrefab: {fileID: 0}
+  rocketPrefab: {fileID: 5206715557677943432, guid: 4788862a3e5103e4b913454c487c2df4, type: 3}
   damage: 3
   reloadTime: 1.5
   reloadTimer: 0

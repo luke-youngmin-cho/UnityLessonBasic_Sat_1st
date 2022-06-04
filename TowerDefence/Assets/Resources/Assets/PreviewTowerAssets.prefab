@@ -46,3 +46,4 @@ MonoBehaviour:
   previewTowers:
   - {fileID: 3003032255728555236, guid: d39c13b166bb7644c84de5a7d293cba1, type: 3}
   - {fileID: 3003032255728555236, guid: f351aaf6a55b91c4fafaf8e063db1687, type: 3}
+  - {fileID: 3003032255728555236, guid: b33253be069c50b4ba5b0e66ab04bfb7, type: 3}
