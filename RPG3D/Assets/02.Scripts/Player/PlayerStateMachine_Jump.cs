@@ -85,6 +85,10 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
                         onJumpDown = true;
                     }
                 }
+                else if (onJumpDown == false)
+                {
+                    playerAnimator.SetTrigger("DoFalling");
+                }
                 else
                 {
                     Debug.DrawRay(rb.position, Vector3.down * 100.0f, Color.green);
@@ -118,6 +122,8 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
             case State.Prepare:
                 break;
             case State.OnDelay:
+                if (groundSensor.isOn)
+                    rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
                 break;
             case State.Casting:
                 if (groundSensor.isOn)                    

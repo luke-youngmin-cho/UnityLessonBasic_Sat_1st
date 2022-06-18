@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerStateMachine : MonoBehaviour
 {
+    public KeyCode keyCode;
     public PlayerState playerState;
     public State state;
     public bool isFinished
