@@ -28,7 +28,11 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
 
     public override bool isExecuteOK()
     {
-        return groundSensor.isOn;
+        if (groundSensor.isOn &&
+            manager.state == PlayerState.Move &&
+            playerAnimator.IsClipPlaying("Jump StateMachine") == false)
+            return true;
+        return false;
     }
 
     public override PlayerState UpdateState()
@@ -40,13 +44,15 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
             case State.Idle:
                 break;
             case State.Prepare:
-                playerAnimator.SetTrigger("DoJump");
+                playerAnimator.SetBool("DoJump", true);
                 delayTimer = delay;
+                rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
                 state++;
                 break;
             case State.OnDelay:
                 if (delayTimer < 0)
                 {
+                    playerAnimator.SetBool("DoJump", false);
                     state++;
                 }
                 delayTimer -= Time.deltaTime;
@@ -67,22 +73,21 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
                                     ))
                 {
                     Debug.DrawRay(rb.position, Vector3.down * 100.0f, Color.red);
-                    float vY = rb.velocity.y;
-                    float vSquare = vY * vY;
-                    float distance = vY - hit.point.y;
-                    float gravity = -9.81f;
-                    float remainTime = (2 * vY + Mathf.Sqrt(vSquare - 4 * gravity * 2 * distance)) / 
-                                        (2 * gravity);
-                    if (remainTime < 0)
-                    {
-                        remainTime = (2 * vY - Mathf.Sqrt(vSquare - 4 * gravity * 2 * distance)) /
-                                     (2 * gravity);
-                    }                    
+                    float gravity = PlayerMove.instance.gravity;
+                    float s = hit.distance;
+                    float b = 2 * rb.velocity.y / gravity;
+                    float c = -2 * s / gravity;
+                    float d = b * b - 4 * c;
 
-                    if (remainTime <= jumpDownAnimationTime)
+                    if (d >= 0)
                     {
-                        playerAnimator.SetTrigger("DoJumpDown");
-                        onJumpDown = true;
+                        float r = (-b + Mathf.Sqrt(d)) / 2;
+                        if (r >= 0 &&
+                            r <= jumpDownAnimationTime)
+                        {
+                            playerAnimator.SetTrigger("DoJumpDown");
+                            onJumpDown = true;
+                        }                           
                     }
                 }
                 else if (onJumpDown == false)

@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public static PlayerMove instance;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float dashSpeed = 5f;
-    [SerializeField] private float gravity = 9.81f;
+    public float gravity = 9.81f;
     private Rigidbody rb;
     private Vector3 _move;
     private PlayerAnimator playerAnimator;
     private GroundSensor groundSensor;
+    private Transform tr;
+    private Transform cam;
 
     //=============================================================
     //--------------------- Public Methods ------------------------
@@ -29,9 +32,16 @@ public class PlayerMove : MonoBehaviour
 
     private void Awake()
     {
+        instance = this;
+        tr = GetComponent<Transform>();
         rb = GetComponent<Rigidbody>();
         playerAnimator = GetComponent<PlayerAnimator>();
         groundSensor = GetComponentInChildren<GroundSensor>();
+    }
+
+    private void Start()
+    {
+        cam = Camera.main.transform;
     }
 
     private void Update()
@@ -41,15 +51,18 @@ public class PlayerMove : MonoBehaviour
         playerAnimator.SetFloat("h", h);
         playerAnimator.SetFloat("v", v);
 
+        tr.rotation = Quaternion.Euler(0, cam.eulerAngles.y, 0);
+        Vector3 move = cam.rotation * new Vector3(h, 0, v);
+
         if ((h == 0) && (v == 1) &&
             Input.GetKey(KeyCode.LeftShift))
         {
-            SetMove(h, v, dashSpeed);
+            SetMove(move.x, move.z, dashSpeed);
             playerAnimator.SetFloat("RunForwardBlend", 1.0f);
         }   
         else
         {
-            SetMove(h, v, moveSpeed);
+            SetMove(move.x, move.z, moveSpeed);
         }   
     }
 
@@ -59,6 +72,7 @@ public class PlayerMove : MonoBehaviour
         {
             //rb.position += Vector3.down * gravity * Time.fixedDeltaTime;
             rb.AddForce(Vector3.down * gravity, ForceMode.VelocityChange);
+            //rb.velocity += Vector3.down * gravity * Time.fixedDeltaTime;
         }   
 
         rb.position += _move * Time.fixedDeltaTime;

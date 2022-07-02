@@ -74,6 +74,7 @@ public class PlayerStateMachineManager : MonoBehaviour
 
     private void FixedUpdate()
     {
+        currentMachine.FixedUpdateState();
     }
 
 }
