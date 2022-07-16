@@ -37,7 +37,6 @@ public class Weapon1 : Equipment
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log($"Target Casted : {other.name}");
         if (_doCasting)
         {
             if (1 << other.gameObject.layer == targetLayer)

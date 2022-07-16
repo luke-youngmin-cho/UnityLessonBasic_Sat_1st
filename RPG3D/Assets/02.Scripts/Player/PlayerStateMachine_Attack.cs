@@ -26,6 +26,15 @@ public class PlayerStateMachine_Attack : PlayerStateMachine
         combo4Time = playerAnimator.GetClipTime("Slash4");
         Debug.Log($"{combo0Time}, {combo1Time}, {combo2Time}, {combo3Time}, {combo4Time}");
     }
+
+    public override bool isExecuteOK()
+    {
+        bool isOK = true;
+        if (weapon1 == null)
+            isOK = false;
+        return isOK;
+    }
+
     public override PlayerState UpdateState()
     {
         PlayerState nextState = playerState;

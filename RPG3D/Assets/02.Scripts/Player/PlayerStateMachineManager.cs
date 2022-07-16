@@ -10,6 +10,24 @@ public class PlayerStateMachineManager : MonoBehaviour
     private PlayerStateMachine currentMachine;
     private KeyCode keyInput;
 
+    public bool TryGetMachine(PlayerState playerState, out PlayerStateMachine machine)
+    {
+        return machines.TryGetValue(playerState, out machine);
+
+        //bool isOK = false;
+        //machine = null;
+        //try
+        //{
+        //    machine = machines[playerState];
+        //    isOK = true;
+        //}
+        //catch
+        //{
+        //    isOK = false;
+        //}
+        //return isOK;
+    }
+
     private void Awake()
     {
         PlayerStateMachine[] playerStateMachines = GetComponents<PlayerStateMachine>();
